@@ -73,7 +73,7 @@ def left_conflict(the_piece: Queen, board: Board) -> bool:
     return False
 
 
-def solve_puzzle(board: Board) -> None:
+def solve_puzzle(board: Board) -> None: #Backtracking algorithm
     while True:
         for piece in board.pieces:
             for counter in range(SIZE + 1):
