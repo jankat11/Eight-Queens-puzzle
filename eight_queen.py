@@ -3,6 +3,8 @@ from string import ascii_uppercase as alpha
 from itertools import product
 
 # A SOLUTION FOR EIGHT QUEENS PUZZLE
+# ALGORITHM ALSO PRINTS CHESSBOARD WITH PIECES BY ASCII ART 
+
 SIZE = 8
 hash = list(map(lambda pair: "".join(pair), list(product(alpha, alpha))))
 
